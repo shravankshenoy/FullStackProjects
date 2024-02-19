@@ -1,0 +1,14 @@
+django-admin startproject image_uploader
+cd image_uploader
+
+python manage.py startapp myapp
+In INSTALLED_APPS add myapp
+
+After creating model
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver (username admin, password admin)
+
+Go to 127.0.0.1:8000/admin and login
+In
