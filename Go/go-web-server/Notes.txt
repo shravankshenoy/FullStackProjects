@@ -1,0 +1,21 @@
+https://stackoverflow.com/questions/48124565/why-does-vscode-delete-golang-source-on-save
+
+If we declare a variable we have to use it in Golang
+
+Q. In Golang should package name match directory name?
+Q. Can we have 2 package names in same directory?
+Q. What are the major differences in packaging in Python vs Go?
+
+https://stackoverflow.com/questions/43579838/relationship-between-a-package-statement-and-the-directory-of-a-go-file
+
+
+In Go, one package == one directory. That is, all .go files for a package should be contained in the same directory, and a directory should contain the .go files for one package only. You shouldn't ever have .go files with different package names in the same directory
+https://www.alexedwards.net/blog/an-introduction-to-packages-imports-and-modules#:~:text=In%20Go%2C%20one%20package%20%3D%3D,names%20in%20the%20same%20directory.
+
+
+Two package names in same directory golang - not possible
+
+https://gist.github.com/lelandbatey/8383da16b197ec4fbe7270b186bf8a61
+
+https://github.com/golang-standards/project-layout 
+https://www.youtube.com/watch?v=JtS1nGGyw9U - Best Go projects
